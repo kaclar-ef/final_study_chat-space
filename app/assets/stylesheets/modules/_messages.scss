@@ -134,7 +134,7 @@ a,a:visited,a:hover,a:active {
   }
 }
 
-.form {
+form {
   height: 90px;
   display: flex;
   justify-content: space-between;
@@ -142,7 +142,6 @@ a,a:visited,a:hover,a:active {
   padding: 20px 40px;
   &__fields {
     flex-grow: 1;
-    position: relative;
   }
   &__content {
     height: 50px;

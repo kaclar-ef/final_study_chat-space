@@ -9,7 +9,6 @@ Bundler.require(*Rails.groups)
 module ChatSpace6
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 6.0
     config.generators do |g|
       g.stylesheets false
       g.javascripts false

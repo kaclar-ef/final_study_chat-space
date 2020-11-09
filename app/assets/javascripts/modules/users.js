@@ -53,13 +53,13 @@ $(function() {
       alert("通信エラーです。ユーザーが表示できません。");
     });
   });
-  $("#UserSearchResult").on("click", ".ChatMember__add", function() {
+  $(".ChatMember__add").on("click", function() {
     const userName = $(this).attr("data-user-name");
     const userId = $(this).attr("data-user-id");
     $(this).parent().remove();
     addMember(userName, userId);
   });
-  $(".ChatMembers").on("click", ".ChatMember__remove", function() {
+  $(".ChatMember__remove").on("click", function() {
     $(this).parent().remove();
   });
 });

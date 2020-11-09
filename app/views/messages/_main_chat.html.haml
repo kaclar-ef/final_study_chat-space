@@ -13,7 +13,7 @@
   %article.messages
     = render @messages
 
-  = form_with model: [@group, @message], html: { class: 'form' }, local: true do |f|
+  = form_with url: group_messages_path local: true do |f|
     .form__fields
       = f.text_field :content, placeholder: 'type a message', class: 'form__content'
       = f.label :image, class: 'form__image-label' do
