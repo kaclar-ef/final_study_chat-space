@@ -141,7 +141,6 @@ a,a:visited,a:hover,a:active {
   background-color: $bg-form;
   padding: 20px 40px;
   &__fields {
-    position: relative;
     flex-grow: 1;
   }
   &__content {
